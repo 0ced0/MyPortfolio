@@ -1,0 +1,1 @@
+export default function SectionHeading({ eyebrow, title, copy, action }) { return <div className="mb-10 flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><p className="kicker mb-3">{eyebrow}</p><h2 className="max-w-2xl text-3xl font-semibold tracking-tight text-ink sm:text-4xl">{title}</h2>{copy&&<p className="prose-copy mt-4">{copy}</p>}</div>{action}</div> }

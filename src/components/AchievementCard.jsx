@@ -1,0 +1,1 @@
+export default function AchievementCard({title, detail, meta}) { return <article className="border border-line bg-white p-5"><p className="kicker">{meta}</p><h3 className="mt-3 text-lg font-semibold">{title}</h3><p className="mt-2 text-sm leading-6 text-muted">{detail}</p></article> }
